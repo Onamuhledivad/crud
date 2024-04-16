@@ -1,0 +1,17 @@
+.mycard {
+    max-width: 350px;
+    height: 530px;
+    border: 1px solid gray;
+    flex: 0 0 calc(33.33% - 20px); /* Tamaño de cada tarjeta */
+    margin: 10px; /* Espacio entre las tarjetas */
+    border-radius: 10px;
+  }
+  
+  .mycard-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .mycard p{
+    margin: 10px 0;
+  }

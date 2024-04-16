@@ -1,0 +1,14 @@
+
+<div class="container">
+  <div  class="add">
+    <button mat-raised-button color="primary" (click)="openDialog()">
+      <span class="material-symbols-outlined">
+      add
+      </span> Add New</button>
+  </div>
+    <app-table 
+      [dataSource]="dataTable" 
+      [title]="dataTitle"
+      [icon]="'pets'"
+      ></app-table>
+</div>
